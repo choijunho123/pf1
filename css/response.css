@@ -1,24 +1,20 @@
 @media screen and (max-width:768px){
   header{
-    
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px 20px;
   }
   header ul:first-child{
-    display: none;
+  display: none;
   }
-  header ul:nth-child(2){
-    
-  }
-  header ul:nth-child(2) li:nth-child(-n+3){
-    display: none;
+  header ul:nth-child(2) li:nth-child(-n + 3){
+  display: none;
   }
   header ul:nth-child(2) li:last-child{
     display: block;
   }
-  header ul:nth-child(2) li:last-child a{  
+  header ul:nth-child(2) li:last-child a{
   font-size: 0;
   width: 21px;
   height: 21px;
@@ -29,14 +25,13 @@
   align-items: center;
   }
   header ul:nth-child(2) li:last-child a:before{
-    content: "";
-    width: 100%;
-    height: 3px;
-    display: block;
-    background-color: black;
+  content: "";
+  width: 100%;
+  height: 3px;
+  display: block;
+  background-color: black;
   }
   header div form{
-    display: none;
+  display: none;
   }
-  
 }
