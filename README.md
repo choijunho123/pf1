@@ -16,12 +16,9 @@
 ## 기술 스택
 - HTML
 - CSS
-- JavaScript
-- jQuery
-
+  
 ## 작업페이지
 - index
-- about > 인사말페이지
 
 ## 작업기간
 6일
